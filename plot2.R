@@ -1,7 +1,7 @@
 powerData <- loadPowerData()
 library(lubridate)
 
-# type = "0" makes it a line graph
+# type = "o" makes it a line graph
 # pch = "" makes it have no marker for the point
 # cex. = the font size for labels and scale values
 plot(powerData$DateTime, powerData$Global_active_power, type = "o", pch="",  
